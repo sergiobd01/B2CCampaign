@@ -1,4 +1,4 @@
-package com.orderService.util;
+package com.campaingService.util;
 
 public class Constant {
 

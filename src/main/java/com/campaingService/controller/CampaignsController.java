@@ -1,4 +1,4 @@
-package com.orderService.controller;
+package com.campaingService.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.orderService.model.Campaign;
-import com.orderService.repository.CampaignRepository;
+import com.campaingService.model.Campaign;
+import com.campaingService.repository.CampaignRepository;
 
 
 @RestController

@@ -1,4 +1,4 @@
-package com.orderService.model;
+package com.campaingService.model;
 
 import java.util.Date;
 
