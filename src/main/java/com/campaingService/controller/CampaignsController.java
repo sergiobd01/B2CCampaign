@@ -27,7 +27,7 @@ public class CampaignsController {
     	      produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Campaign> findOrder() {
 
-    	List<Campaign> CampaignResult =  campaignRepository.findAll();
+    	List<Campaign> CampaignResult =  campaignRepository.findByCampaign();
     	
     	return CampaignResult;
     }

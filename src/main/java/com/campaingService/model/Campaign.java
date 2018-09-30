@@ -20,19 +20,19 @@ public class Campaign {
 	private Long idCampaign;
 	
 	@Column(name = "NAME")
-	private Long name;
+	private String name;
 	
 	@Column(name = "IDSTATECAMPAIGN")
 	private Long idStateCampaign;
 
 	@Column(name = "URLIMAGE")
-	private Long urlImage;
+	private String urlImage;
 	
 	@Column(name = "DESCRIPTION")
-	private Long description;
+	private String description;
 	
 	@Column(name = "IDPRODUCT")
-	private Date idProduct;
+	private Long idProduct;
 	
 	@Column(name = "STARTDATE")
 	private Date startDate;
@@ -44,7 +44,7 @@ public class Campaign {
 	
 	}
 
-	public Campaign(Long idCampaign, Long name, Long idStateCampaign, Long urlImage, Long description, Date idProduct,
+	public Campaign(Long idCampaign, String name, Long idStateCampaign, String urlImage, String description, Long idProduct,
 			Date startDate, Date endDate) {
 		this.idCampaign = idCampaign;
 		this.name = name;
@@ -64,11 +64,11 @@ public class Campaign {
 		this.idCampaign = idCampaign;
 	}
 
-	public Long getName() {
+	public String getName() {
 		return name;
 	}
 
-	public void setName(Long name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
@@ -80,27 +80,27 @@ public class Campaign {
 		this.idStateCampaign = idStateCampaign;
 	}
 
-	public Long getUrlImage() {
+	public String getUrlImage() {
 		return urlImage;
 	}
 
-	public void setUrlImage(Long urlImage) {
+	public void setUrlImage(String urlImage) {
 		this.urlImage = urlImage;
 	}
 
-	public Long getDescription() {
+	public String getDescription() {
 		return description;
 	}
 
-	public void setDescription(Long description) {
+	public void setDescription(String description) {
 		this.description = description;
 	}
 
-	public Date getIdProduct() {
+	public Long getIdProduct() {
 		return idProduct;
 	}
 
-	public void setIdProduct(Date idProduct) {
+	public void setIdProduct(Long idProduct) {
 		this.idProduct = idProduct;
 	}
 
